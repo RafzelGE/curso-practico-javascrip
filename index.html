@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Curso Practico Javascrip</title>
+</head>
+
+<body>
+    <nav>
+        <img class="menu"
+            src="https://static.platzi.com/media/tmp/class-files/github/curso-frontend-developer-javascript-practico/curso-frontend-developer-javascript-practico-9e37fee28e0819bd085fadb6e781d38994f2a520/icons/icon_menu.svg"
+            alt="menu">
+        <img class="gatito"
+            src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQ5pAUkFjASncLgVEsqVbwyTj0LP1ObO85jakWZEibYYmjHzzQux9-C1zQ2DXiZnAldF_l5_EXyZXQqQf4"
+            alt="gatito">
+        <div class="LeftNav">
+            <ul>
+                <li><a href="/">All</a></li>
+                <li><a href="/">clothes</a></li>
+                <li><a href="/">Electronics</a></li>
+                <li><a href="/">Furniture</a></li>
+                <li><a href="/">Toys</a></li>
+                <li><a href="/">Others</a></li>
+            </ul>
+        </div>
+        <div class="RightNav">
+            <ul>
+                <li class="navEmail">rafaelgonzalezescalona@gmail.com</li>
+                <li class="navShopping"><img
+                        src="https://static.platzi.com/media/tmp/class-files/github/curso-frontend-developer-javascript-practico/curso-frontend-developer-javascript-practico-9e37fee28e0819bd085fadb6e781d38994f2a520/icons/icon_shopping_cart_notification.svg"
+                        alt="shopping cart">
+                    <div>2</div>
+                </li>
+
+            </ul>
+
+        </div>
+        <div class="desktop-menu inactive">
+            <ul>
+                <li><a href="/">My orders</a></li>
+                <li><a href="/">My account</a></li>
+                <li><a href="/">Sign out</a></li>
+            </ul>
+
+        </div>
+        <div class="mobile-menu inactive">
+            <ul>
+                <li><a href="/">CATEGORIES</a></li>
+                <li><a href="/">All</a></li>
+                <li><a href="/">Clothes</a></li>
+                <li><a href="/">Electronics</a>
+                <li><a href="/">Furnitures</a>
+                <li><a href="/">Toys</a></li>
+                <li><a href="/">Other</a></li>
+            </ul>
+            <ul>
+                <li><a href="/">My orders</a></li>
+                <li><a href="/">My account</a></li>
+            </ul>
+            <ul>
+                <li><a href="/" class="email">platzi@example.com</a></li>
+                <li><a href="/" class="sign-out">Sign out</a></li>
+            </ul>
+        </div>
+    </nav>
+    <aside class="product-detail inactive">
+        <div class="title-container">
+            <img src="https://static.platzi.com/media/tmp/class-files/github/curso-frontend-developer-javascript-practico/curso-frontend-developer-javascript-practico-cd8c453322192993b167784a1eaf57bb21c626b1/icons/flechita.svg"
+                alt="arrow">
+            <p class="title">My order</p>
+        </div>
+        <div class="my-order-content">
+            <div class="shopping-cart">
+                <figure>
+                    <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                        alt="bike">
+                </figure>
+                <p>Bike</p>
+                <p>$30,00</p>
+                <img src="./icons/icon_close.png" alt="close">
+            </div>
+            <div class="shopping-cart">
+                <figure>
+                    <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                        alt="bike">
+                </figure>
+                <p>Bike</p>
+                <p>$30,00</p>
+                <img src="./icons/icon_close.png" alt="close">
+            </div>
+            <div class="shopping-cart">
+                <figure>
+                    <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                        alt="bike">
+                </figure>
+                <p>Bike</p>
+                <p>$30,00</p>
+                <img src="./icons/icon_close.png" alt="close">
+            </div>
+            <div class="order">
+                <p>
+                    <span>Total</span>
+                </p>
+                <p>$560.00</p>
+            </div>
+            <button class="primary-button">
+                Checkout
+            </button>
+        </div>
+        </div>
+    </aside>
+    <section class="main-container">
+        <div class="cards-container">
+            <!-- <div class="product-card">
+                <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="">
+                <div class="product-info">
+                    <div>
+                        <p>$120,00</p>
+                        <p>Bike</p>
+                    </div>
+                    <figure>
+                        <img src="https://static.platzi.com/media/tmp/class-files/github/curso-frontend-developer-javascript-practico/curso-frontend-developer-javascript-practico-11c672c1facc262ea3c11ecc8d95e1f0b0e67a0b/icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="">
+                <div class="product-info">
+                    <div>
+                        <p>$120,00</p>
+                        <p>Bike</p>
+                    </div>
+                    <figure>
+                        <img src="https://static.platzi.com/media/tmp/class-files/github/curso-frontend-developer-javascript-practico/curso-frontend-developer-javascript-practico-11c672c1facc262ea3c11ecc8d95e1f0b0e67a0b/icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="">
+                <div class="product-info">
+                    <div>
+                        <p>$120,00</p>
+                        <p>Bike</p>
+                    </div>
+                    <figure>
+                        <img src="https://static.platzi.com/media/tmp/class-files/github/curso-frontend-developer-javascript-practico/curso-frontend-developer-javascript-practico-11c672c1facc262ea3c11ecc8d95e1f0b0e67a0b/icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="">
+                <div class="product-info">
+                    <div>
+                        <p>$120,00</p>
+                        <p>Bike</p>
+                    </div>
+                    <figure>
+                        <img src="https://static.platzi.com/media/tmp/class-files/github/curso-frontend-developer-javascript-practico/curso-frontend-developer-javascript-practico-11c672c1facc262ea3c11ecc8d95e1f0b0e67a0b/icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="">
+                <div class="product-info">
+                    <div>
+                        <p>$120,00</p>
+                        <p>Bike</p>
+                    </div>
+                    <figure>
+                        <img src="https://static.platzi.com/media/tmp/class-files/github/curso-frontend-developer-javascript-practico/curso-frontend-developer-javascript-practico-11c672c1facc262ea3c11ecc8d95e1f0b0e67a0b/icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="">
+                <div class="product-info">
+                    <div>
+                        <p>$120,00</p>
+                        <p>Bike</p>
+                    </div>
+                    <figure>
+                        <img src="https://static.platzi.com/media/tmp/class-files/github/curso-frontend-developer-javascript-practico/curso-frontend-developer-javascript-practico-11c672c1facc262ea3c11ecc8d95e1f0b0e67a0b/icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="">
+                <div class="product-info">
+                    <div>
+                        <p>$120,00</p>
+                        <p>Bike</p>
+                    </div>
+                    <figure>
+                        <img src="https://static.platzi.com/media/tmp/class-files/github/curso-frontend-developer-javascript-practico/curso-frontend-developer-javascript-practico-11c672c1facc262ea3c11ecc8d95e1f0b0e67a0b/icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="">
+                <div class="product-info">
+                    <div>
+                        <p>$120,00</p>
+                        <p>Bike</p>
+                    </div>
+                    <figure>
+                        <img src="https://static.platzi.com/media/tmp/class-files/github/curso-frontend-developer-javascript-practico/curso-frontend-developer-javascript-practico-11c672c1facc262ea3c11ecc8d95e1f0b0e67a0b/icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="">
+                <div class="product-info">
+                    <div>
+                        <p>$120,00</p>
+                        <p>Bike</p>
+                    </div>
+                    <figure>
+                        <img src="https://static.platzi.com/media/tmp/class-files/github/curso-frontend-developer-javascript-practico/curso-frontend-developer-javascript-practico-11c672c1facc262ea3c11ecc8d95e1f0b0e67a0b/icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+
+</html>
